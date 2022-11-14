@@ -14,3 +14,17 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Dependencias a agregar a Pubspec.yaml
+
+- dependencies:
+  isar: ^3.0.2
+  isar_flutter_libs: ^3.0.2
+
+- dev_dependencies:
+  isar_generator: ^3.0.2
+  build_runner: ^2.3.2
+
+## Comando a ejecutar para generar los archivos ????.g.dart que poseen todos los Shemas
+
+- flutter pub run build_runner build --delete-conflicting-outputs
